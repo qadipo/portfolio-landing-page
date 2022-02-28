@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 *{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 body{
 font-family: Tahoma;
 line-height: 1.5rem;
+background-image:
+color: #FFFFFF;
 }
-/* utility Classes */
 
 .container{
 max-width: 1300px;
@@ -96,7 +97,7 @@ color: #fff;
 
 #home{
 display: flex;
-background: url("/images/image1.jpg") no-repeat center;
+background-image: url('/images/image1.jpg') no-repeat center;
 height: 100vh;
 min-height: 500px;
 }
@@ -125,4 +126,27 @@ font-weight: 600;
 #home .btn{
 margin-left: 1rem;
 font-size: 1.5rem;
+}
+#home .column{
+  width: 100%;
+  float: left;
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+#home .column {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+#home .row:after {
+  content: "";
+  display: table;
+  clear: both;
 }

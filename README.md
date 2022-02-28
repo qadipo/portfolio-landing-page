@@ -13,9 +13,13 @@ I will be keeping this list for two major reasons:
 1. **For you** to appreciate journey
 2. **For me** to track my own progress
 
+## Installation
+1. Should you wish to try ot what I have done, any text editor will do!
+2. Git
+
 Though I would love to learn as many languages as would be useful in my development, the following are the most urgent now:
 - Python
 - JavaScript
 - HTML and CSS - *though I have been told that they are not languages*
 
-In case you know a resource that you deem very useful, or any consideration, do not fail to [email](quincedya@gmail.com)
+In case you know a resource that you deem very useful, or any consideration, do not fail to [email](https://web.facebook.com/)

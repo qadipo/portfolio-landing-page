@@ -19,15 +19,23 @@ padding: 0 80px;
 margin: auto;
 }
 h1{
-font-size: 35px;
+font-size: 60px;
 font-weight: 500;
 }
 h2{
-text-align: center;
-padding: 1rem;
+  text-align: center;
+  padding: 1rem;
+  color: #1e82d9;
+  border: blue solid;
+  font-size: 40px;
 }
 h3{
 padding: 1rem;
+color: yellow;
+}
+p{
+  color: white;
+  font-size: 20px;
 }
 .primary-color{
 color: #ddf716;
@@ -88,10 +96,11 @@ font-weight: 600;
 padding: 0.45rem;
 margin: 0 0.25rem;
 color: #c0c0c0;
+border: blue solid;
 
 }
 #navbar .menu li a:hover{
-color: #fff;
+color: green;
 }
 
 
@@ -107,17 +116,20 @@ margin: auto 0px auto 2rem;
 }
 
 #home .home-content .text-1{
-font-size: 29px;
-margin: 1.2rem;
+font-size: 36px;
+margin: 5rem;
+color: #cef0e6;
 }
 #home .home-content .text-2{
-font-size: 65px;
+font-size: 80px;
 font-weight: 500;
-margin: 1rem;
+margin: 5rem;
+color: #cef0e6;
 }
 #home .home-content .text-3{
-font-size: 32px;
-margin: 1.2rem;
+font-size: 50px;
+margin: 5rem;
+color: yellow;
 }
 #home .home-content .text-3 span{
 color: #0000ff;
@@ -149,4 +161,94 @@ font-size: 1.5rem;
   content: "";
   display: table;
   clear: both;
+}
+
+/* Portfolio css*/
+.portfolio .container h2{
+margin-top: .5rem;
+}
+.projects{
+display: flex;
+flex-wrap: wrap;
+padding: .5rem;
+}
+.project{
+flex: 1;
+padding: 1.5rem;
+
+}
+.img-container img{
+max-width: 450px;
+}
+.project-content{
+max-width: 450px;
+
+}
+.stack-container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: .2rem;
+margin-right: 1rem;
+}
+
+.stack-container li {
+list-style: none;
+
+}
+
+.stack-container li a {
+color: #000;
+font-weight: 600;
+}
+
+.btn-container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+
+
+/* About */
+#about p{
+padding: .5rem;
+margin-bottom: 0.5rem;
+}
+#about .btn{
+margin-left: .5rem;
+}
+.about-content {
+display: flex;
+padding: 1rem;
+}
+
+.about-content .column {
+flex: 1;
+padding: 1rem;
+}
+
+.pro-languages{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.pro-languages .language {
+flex: 1;
+text-align: center;
+padding: 1rem ;
+margin: 1.32rem;
+}
+
+.pro-languages .language i {
+background: blue;
+border-radius: 50%;
+margin-bottom: .5rem;
+margin-top: -1rem;
+}
+
+.pro-languages .language h3 {
+margin-bottom: 2rem;
 }

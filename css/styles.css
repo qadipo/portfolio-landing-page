@@ -10,7 +10,7 @@ body{
 font-family: Tahoma;
 line-height: 1.5rem;
 background-image:
-color: #FFFFFF;
+color: #edff2b;
 }
 
 .container{
@@ -30,13 +30,13 @@ h3{
 padding: 1rem;
 }
 .primary-color{
-color: #0000ff;
+color: #ddf716;
 }
 .secondary-color{
-color: #fff ;
+color: #1e82d9 ;
 }
 .primary-text{
-color: #000;
+color: #1e82d9;
 }
 
 .margin{
@@ -47,7 +47,7 @@ font-size: 18px;
 display: inline-block;
 padding: 0.5rem;
 margin: 0.5 0rem;
-background: black;
+background: green;
 color: #fff;
 border-radius: 5px;
 border: none;
@@ -67,7 +67,7 @@ border-radius: 5px;
 position: fixed;
 width: 100%;
 padding: 1rem;
-background: #0000ff;
+background: #black;
 }
 #navbar .container{
 display: flex;
